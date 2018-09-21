@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingTop="16dp"
+    android:layout_weight="3">
+
+    <!--<ImageView-->
+        <!--android:layout_weight="1"-->
+        <!--android:id="@+id/i_mIcon"-->
+        <!--android:layout_width="150dp"-->
+        <!--android:layout_height="100dp"-->
+       <!--android:layout_marginLeft="20dp"-->
+        <!--android:background="@drawable/ic_hinh1"-->
+    <!--/>-->
+    <!--<TextView-->
+        <!--android:layout_weight="1"-->
+        <!--android:id="@+id/t_xtText"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:gravity="center_vertical"/>-->
+    <LinearLayout
+        android:layout_width="29dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/i_mIcon"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/ic_hinh1" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="15dp">
+
+        <TextView
+            android:id="@+id/tv_Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Patric Graza"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tv_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="7120"
+                android:textColor="#ec0a0a"
+                android:textSize="10sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recipes "
+                android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        >
+    <ImageButton
+        android:id="@+id/ibt_mesenger"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/ic_mesenger"/>
+    </LinearLayout>
+</LinearLayout>
